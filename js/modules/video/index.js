@@ -3,7 +3,7 @@
 // 能力：按学科/难度筛选、关键词搜索、点击在新标签页打开视频页
 import { progress } from '../../core/progress.js';
 
-const { $, $$, $$, toast, modal, closeModal } = window.App;
+const { $, $$, toast, modal, closeModal } = window.App;
 
 const SUBJECTS = [
   { key: 'all',     name: '全部', icon: '📚' },
